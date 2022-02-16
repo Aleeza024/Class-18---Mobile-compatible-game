@@ -75,7 +75,7 @@ function setup() {
 function draw() {
     background("white")
 
-    text("Score: " + Score, width/2-200, height/2+100)
+    text("Score: " + Score, width/2-150, height/2+100)
     // text(mouseX + " " + mouseY, mouseX, mouseY)
     if (gamestate === PLAY) {
         // Calling my own funtions
